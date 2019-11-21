@@ -1,15 +1,15 @@
 # survey_widget
 
 
-<?= SurveyDev::widget([
-    'id' => 'self-feedback',
+
+
+<?= \SurveyDev::widget([
+	'id' => 'self-feedback',
 	'questions' => ['C','C++ 'Java','Php','Jquery','python','Ruby'],
-	'scale' => ['min' => 0, 'max' => 3],
-	'sections' => ['Sep 2019 Estimation', 'Oct 2019 Estimation','Nov 2019 Estimation'],
+	'scale' => ['min' => 0, 'max' => 5],
+	'sections' => ['2015 Scores', '2016 Scores'],
 	'enableComment' => true,
 ]); ?>
-
-
 
 
 
